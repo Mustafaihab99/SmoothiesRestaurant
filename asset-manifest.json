@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/SmoothiesRestaurant/static/css/main.8a54d506.css",
+    "main.js": "/SmoothiesRestaurant/static/js/main.d8b5e5ed.js",
+    "static/media/delivery.png": "/SmoothiesRestaurant/static/media/delivery.e3652ec231028bc8358f.png",
+    "static/media/product12.jpg": "/SmoothiesRestaurant/static/media/product12.5c306f00a3c61ef1adae.jpg",
+    "static/media/contact.jpg": "/SmoothiesRestaurant/static/media/contact.4b864e58920827d17535.jpg",
+    "static/media/product15.jpg": "/SmoothiesRestaurant/static/media/product15.197f0ba19f10a04228b8.jpg",
+    "static/media/product13.jpg": "/SmoothiesRestaurant/static/media/product13.c606f48085e55247e7e1.jpg",
+    "static/media/logo.png": "/SmoothiesRestaurant/static/media/logo.51cd3caa94558d2b39c0.png",
+    "static/media/product5.jpg": "/SmoothiesRestaurant/static/media/product5.66e309831bf117639ffb.jpg",
+    "static/media/product14.jpg": "/SmoothiesRestaurant/static/media/product14.849d1bbb8c13e7e77ac8.jpg",
+    "static/media/productOne.jpg": "/SmoothiesRestaurant/static/media/productOne.9cde7f663f28002315b7.jpg",
+    "static/media/product3.jpg": "/SmoothiesRestaurant/static/media/product3.ce8e99851e68e074988d.jpg",
+    "static/media/product2.jpg": "/SmoothiesRestaurant/static/media/product2.ec28a06bd64382700148.jpg",
+    "static/media/product6.jpg": "/SmoothiesRestaurant/static/media/product6.24bd6d82663ba356fe69.jpg",
+    "static/media/product7.jpg": "/SmoothiesRestaurant/static/media/product7.57f551b35b917ada90fc.jpg",
+    "static/media/product4.jpg": "/SmoothiesRestaurant/static/media/product4.c543626680adfbf6449b.jpg",
+    "static/media/smothy.png": "/SmoothiesRestaurant/static/media/smothy.68318dd48c5437f610d9.png",
+    "static/media/product10.jpg": "/SmoothiesRestaurant/static/media/product10.bdf3981f3af8f41f7ee5.jpg",
+    "static/media/product8.jpg": "/SmoothiesRestaurant/static/media/product8.e191cc368207ee74f4c4.jpg",
+    "static/media/product11.jpg": "/SmoothiesRestaurant/static/media/product11.daeb6fcdf97ccf8920ae.jpg",
+    "static/media/product9.jpg": "/SmoothiesRestaurant/static/media/product9.bc062c503f48d6d407bc.jpg",
+    "static/media/slick.svg": "/SmoothiesRestaurant/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SmoothiesRestaurant/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SmoothiesRestaurant/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SmoothiesRestaurant/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SmoothiesRestaurant/index.html",
+    "main.8a54d506.css.map": "/SmoothiesRestaurant/static/css/main.8a54d506.css.map",
+    "main.d8b5e5ed.js.map": "/SmoothiesRestaurant/static/js/main.d8b5e5ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a54d506.css",
+    "static/js/main.d8b5e5ed.js"
+  ]
+}

@@ -1,0 +1,404 @@
+.main{
+    margin-top: 5px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 430px;
+    background-image: linear-gradient(to bottom right, white 60%, #ffc0cb);
+}
+.main .left{
+    max-width: 550px;
+}
+.main .left .head h1{
+    font-size: 60px;
+    color: #000000ab;
+}
+.main .left .head h1 span{
+    color: #16ad16;
+    font-family: system-ui;
+}
+.main .left .head p{
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #300303d4;
+}
+.main .left .head .button{
+    margin-top: 40px;
+}
+.main .left .head .button a{
+    padding: 12px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+}
+.main .left .head .button:hover{
+    cursor: pointer;
+}
+.main .right{
+    margin-right: 20px;
+}
+.main .right img{
+    width: 300px;
+    transition:  1s ease;
+}
+@media screen and (max-width:600px) {
+    .main{
+        margin-top: 20px;
+        height: auto;
+        flex-direction: column;
+        margin-left: 10%;
+        background-image: none;
+    }
+    .main .left .head h1{
+        font-size: 27px;
+    }
+    .main .left .head p{
+        margin-top: 20px;
+    }
+    .main .right{
+        margin-right: 0px;
+    }
+    .main .right img{
+        width: 200px;
+    }
+}
+/* ############################## */
+/* sign up */
+.signup{
+    margin-top: 50px;
+}
+.signup form{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 40%;
+    margin: auto;
+    border: 2px solid green;
+    padding: 40px;
+    box-shadow: 2px 5px 20px 2px gray;
+    background-color: rgba(255, 255, 255, 0.689);
+}
+.signup form h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #b0760c;
+}
+.signup input{
+    width: 300px;
+    height: 32px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: system-ui;
+    background-color: #00000000;
+    color: green;
+    border: 2px solid #157d1d;
+}
+.signup button{
+    width: 300px;
+    height: 32px;
+    border-radius: 3px;
+    border: 2px solid #c3840d;
+    color: white;
+    font-weight: 700;
+    background-color: #c3840d;
+    transition: .4s;
+}
+.signup button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #c3840d;
+}
+.signup form .error{
+    color: red;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+@media screen and (max-width:600px) {
+
+    .signup form{
+        width: 65%;
+    }
+    .signup form h2{
+        font-size: 25px;    
+    }
+    .signup input{
+        width: 200px;
+        font-size: 13px;
+    }
+    .signup button{
+        width: 200px;
+    }
+}
+/* ################################## */
+/* Delivery */
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.delivery img{
+    width: 420px;
+    margin-right: 40px;
+    height: 270px;
+}
+.delivery .content{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+}
+.delivery .content p{
+    font-size: 30px;
+    max-width: 260px;
+    line-height: 45px;
+    font-weight: bold;
+    text-shadow: 0px 1px 4px #ffc0cbe8;
+    margin-top: 25px;
+}
+.delivery .content button{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(61 156 162);
+    border-radius: 5px;
+    border: 2px solid rgb(61 156 162);
+    margin-top: auto;
+    margin-top: 20px;
+    transition: .4s;
+}
+.delivery .content button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.delivery .content button:hover a{
+    color: rgb(61 156 162);
+}
+.delivery .content a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width:780px) {
+    .delivery img{
+        width: 250px;
+        height: 190px;
+    }
+    .delivery .content{
+        height: auto;
+    }
+    .delivery .content p{
+        font-size: 20px;
+    }
+    .delivery .content button{
+        width: 130px;
+        height: 30px;
+    }
+    
+}
+@media screen and (max-width:520px) {
+    .delivery{
+        flex-direction: column-reverse;
+    }
+    .delivery .content p{
+        line-height: 40px;
+    }
+    .delivery{
+        align-items: normal;
+        margin-left: 20px;
+    }
+    .delivery img{
+        margin-right: 50%;
+        width: 200px;
+    }
+    }
+    /* ########################### */
+    /* Contact uS */
+    .contactus{
+        background-image: url(./images/contact.jpg);
+        width: 50%;
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .contactus form{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactus form input{
+        width: 70%;
+        height: 25px;
+        padding-left: 10px;
+        background-color: #ffffff6e;
+        border: 2px solid #8080803d;
+        border-radius: 5px;
+        font-weight: 700;
+        margin-top: 40px;
+    }
+    .contactus form button{
+        margin-top: 30px;
+        width: 70%;
+        height: 35px;
+        background-color: #dbdb1e;
+        border: 2px solid #dbdb1e;
+        border-radius: 5px;  
+        transition: .4s;  
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .contactus form button:hover{
+        background-color: transparent;
+        cursor: pointer;
+        color: #5a5a08;
+    }
+    @media screen and (max-width: 700px) {
+        .contactus{
+            width: 90%;
+            height: 350px;
+        }
+        .contactus form input{
+            margin-top: 20px;
+        }
+    }
+    /* ####################### */
+    /* ReviewCard */
+    .reviewcard{
+        width: auto;
+        height: 270px;
+        border-radius: 10px;
+        border: 2px solid pink;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+        transition: .3s;
+    }
+    .reviewcard:hover{
+        box-shadow: 1px 1px 10px #52484a9e;
+        transform: rotate(2deg);
+        cursor: pointer;
+    }
+    .reviewcard .image{
+        width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    }
+    .reviewcard img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    .reviewcard h2{
+        font-family: system-ui;
+        font-size: 20px;
+    }
+    .reviewcard p{
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: #585252bf;
+        font-size: 15px;
+    }
+    /* ############################# */
+    /* reviews */
+    .reviewCont{
+        margin: auto;
+        width: 75%;
+        margin-top: 40px;
+    }
+    .reviewCont .review{
+        margin-top: 20px;
+    }
+    .slick-slide > div{
+        margin: 0 10px;
+    }
+    .slick-slide{
+        outline: "none";
+        width: "953px"
+    }
+    /* ################################ */
+    /* Footer */
+    
+.footer{
+    background-image: linear-gradient(541deg, black 89%, #ffc0cb);
+    font-family: 'Play', sans-serif;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .footer .row{
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    }
+    .footer .row a{
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+        font-size: 25px;
+    }
+    .footer .row2 ul{
+        display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    }
+    .footer .row2 a{
+        text-decoration: none;
+        color: gray;
+    }
+    .footer .copy{
+        color: gray;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer .row #face:hover{
+        color:#1e3288;
+    }
+    .footer .row #insta:hover{
+        color: rgb(198, 106, 137);
+    }
+    .footer .row #you:hover{
+        color: red;
+    }
+    .footer .row #twit:hover{
+        color: rgb(255, 255, 255);
+    }
+    .footer #icons a:hover{
+        color: white;
+    }
+    @media screen and (max-width:600px) {
+        .footer .row2 ul{
+            gap: 4px;
+        }
+        .footer .row2 ul a{
+            font-size: 8px;
+        }
+        .footer .copy{
+            font-size: 8px;
+        }
+        .footer{
+            background-image: linear-gradient(590deg, black 85%, #ffc0cb);
+        }
+    }

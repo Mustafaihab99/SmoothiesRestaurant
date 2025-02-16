@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SmoothiesRestaurant/static/css/main.07202072.css",
+    "main.css": "/SmoothiesRestaurant/static/css/main.846000a5.css",
     "main.js": "/SmoothiesRestaurant/static/js/main.f8c965f6.js",
     "static/media/delivery.png": "/SmoothiesRestaurant/static/media/delivery.e3652ec231028bc8358f.png",
     "static/media/product12.jpg": "/SmoothiesRestaurant/static/media/product12.5c306f00a3c61ef1adae.jpg",
@@ -26,11 +26,11 @@
     "static/media/slick.ttf": "/SmoothiesRestaurant/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SmoothiesRestaurant/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SmoothiesRestaurant/index.html",
-    "main.07202072.css.map": "/SmoothiesRestaurant/static/css/main.07202072.css.map",
+    "main.846000a5.css.map": "/SmoothiesRestaurant/static/css/main.846000a5.css.map",
     "main.f8c965f6.js.map": "/SmoothiesRestaurant/static/js/main.f8c965f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.07202072.css",
+    "static/css/main.846000a5.css",
     "static/js/main.f8c965f6.js"
   ]
 }

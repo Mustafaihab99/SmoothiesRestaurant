@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SmoothiesRestaurant/static/css/main.4536d774.css",
-    "main.js": "/SmoothiesRestaurant/static/js/main.95468f84.js",
+    "main.css": "/SmoothiesRestaurant/static/css/main.9043f82d.css",
+    "main.js": "/SmoothiesRestaurant/static/js/main.60c7f1a5.js",
     "static/media/delivery.png": "/SmoothiesRestaurant/static/media/delivery.e3652ec231028bc8358f.png",
     "static/media/product12.jpg": "/SmoothiesRestaurant/static/media/product12.5c306f00a3c61ef1adae.jpg",
     "static/media/contact.jpg": "/SmoothiesRestaurant/static/media/contact.4b864e58920827d17535.jpg",
@@ -26,11 +26,11 @@
     "static/media/slick.ttf": "/SmoothiesRestaurant/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SmoothiesRestaurant/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SmoothiesRestaurant/index.html",
-    "main.4536d774.css.map": "/SmoothiesRestaurant/static/css/main.4536d774.css.map",
-    "main.95468f84.js.map": "/SmoothiesRestaurant/static/js/main.95468f84.js.map"
+    "main.9043f82d.css.map": "/SmoothiesRestaurant/static/css/main.9043f82d.css.map",
+    "main.60c7f1a5.js.map": "/SmoothiesRestaurant/static/js/main.60c7f1a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4536d774.css",
-    "static/js/main.95468f84.js"
+    "static/css/main.9043f82d.css",
+    "static/js/main.60c7f1a5.js"
   ]
 }
